@@ -12,8 +12,6 @@ export default function CoursesScreen() {
   ]
   return (
      <FlatList 
-      // horizontal
-      // showsHorizontalScrollIndicator={false}
       data={courses} 
       keyExtractor={(item) => String(item.id)}
       renderItem={({item}) => {
