@@ -28,6 +28,10 @@ export default function HomeScreen() {
         title="Renk Değiştirme Uygulaması"
         onPress={() => navigation.navigate('RenkDegistirme')}
       />
+      <Button
+        title="Şifre Ekranı"
+        onPress={() => navigation.navigate('SifreEkranı')}
+      />
     </View>
   )
 }
