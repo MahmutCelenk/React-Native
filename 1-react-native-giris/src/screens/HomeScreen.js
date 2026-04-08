@@ -32,6 +32,10 @@ export default function HomeScreen() {
         title="Şifre Ekranı"
         onPress={() => navigation.navigate('SifreEkranı')}
       />
+      <Button
+        title="Design Ekranı"
+        onPress={() => navigation.navigate('DesignEkranı')}
+      />
     </View>
   )
 }
